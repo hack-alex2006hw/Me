@@ -1,0 +1,10 @@
+mkdir -p ../pl-app.new
+cp -r app ../pl-app.new
+cp -r workers ../pl-app.new
+cp -r scripts ../pl-app.new
+cp -r refs ../pl-app.new
+cp -r *js ../pl-app.new
+cp -r debug ../pl-app.new
+cp -r config ../pl-app.new
+cp -r assets ../pl-app.new
+cp -r www ../pl-app.new
