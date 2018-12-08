@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`preferences stories initial state should match snapshot 1`] = `
+Object {
+  "onboarded": false,
+  "services": Object {
+    "backgroundLocation": Object {
+      "status": false,
+    },
+    "commentAddedNotification": Object {
+      "status": true,
+    },
+    "deviceAddedNotification": Object {
+      "status": false,
+    },
+    "likeAddedNotification": Object {
+      "status": true,
+    },
+    "notifications": Object {
+      "status": false,
+    },
+    "peerJoinedNotification": Object {
+      "status": true,
+    },
+    "peerLeftNotification": Object {
+      "status": false,
+    },
+    "photoAddedNotification": Object {
+      "status": true,
+    },
+    "receivedInviteNotification": Object {
+      "status": true,
+    },
+  },
+  "storage": Object {
+    "autoPinPhotos": Object {
+      "status": false,
+    },
+    "deleteDeviceCopy": Object {
+      "status": false,
+    },
+    "enablePhotoBackup": Object {
+      "status": false,
+    },
+    "enableWalletBackup": Object {
+      "status": false,
+    },
+    "storeHighRes": Object {
+      "status": false,
+    },
+  },
+  "tourScreens": Object {
+    "feed": true,
+    "location": true,
+    "notifications": true,
+    "threadView": true,
+    "threads": true,
+    "threadsManager": true,
+    "wallet": true,
+  },
+  "verboseUi": false,
+  "viewSettings": Object {
+    "selectedWalletTab": "Photos",
+  },
+}
+`;

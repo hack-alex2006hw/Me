@@ -1,6 +1,13 @@
+# Android
+
+*.keystore
+*.jks
+
 # OSX
 #
 .DS_Store
+
+.tmp
 
 # Xcode
 #
@@ -30,6 +37,10 @@ build/
 local.properties
 *.iml
 
+# Visual Studio Code
+#
+.vscode/
+
 # node.js
 #
 node_modules/
@@ -48,9 +59,22 @@ buck-out/
 # For more information about the recommended setup visit:
 # https://docs.fastlane.tools/best-practices/source-control/
 
-*/fastlane/report.xml
-*/fastlane/Preview.html
-*/fastlane/screenshots
+**/fastlane/report.xml
+**/fastlane/Preview.html
+**/fastlane/screenshots
+**/fastlane/test_output
 
 # Bundle artifact
 *.jsbundle
+sourcemap.js
+
+# Jest
+#
+.jest/
+coverage/
+
+# React Native Config
+.env
+.env.production
+.env.staging
+.env.default

@@ -1,5 +1,4 @@
-git clone git@bitbucket.org:alexpointlook/20181118-pointlook-web-www.git www &
-git clone git@bitbucket.org:alexpointlook/20181118-pointlook-15-www.git web &
+git clone git@bitbucket.org:alexpointlook/20181118-pointlook-15-www.git www &
 git clone git@bitbucket.org:alexpointlook/20181118-pointlook-15-me.git me &
 git clone git@bitbucket.org:alexpointlook/20181118-pointlook-15-assets.git assets &
 git clone git@bitbucket.org:alexpointlook/20181118-pointlook-15-node_modules.git node_modules &
